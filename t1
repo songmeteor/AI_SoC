@@ -1,0 +1,15 @@
+echo "Hello World"
+
+MyName="Song"
+MyNumber="010-4181-9564"
+MyAddr="Koera"
+
+echo $MyName $MyNumber
+
+# cmd a1 a2 a3
+# $$  $1 $2 $3
+
+echo "명령어 : " $$
+echo "인수 1 : " $1
+echo "인수 2 : " $2
+echo "인수 3 : " $3
